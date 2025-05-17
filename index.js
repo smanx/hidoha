@@ -13,14 +13,14 @@ function readCsvFile() {
     const result = {};
     for (let i = 1; i < lines.length; i++) {
         const values = lines[i].split(',');
-        const sld = values[0];
-        const tld = values[1];
+        const sld = cleanValue(values[0]);
+        const tld = cleanValue(values[1]);
         const key = `${sld}${tld}`;
         result[key] = {
             sld,
             tld,
-            status: values[2],
-            message: values[3]
+            status: cleanValue(values[2]),
+            message: cleanValue(values[3])
         };
     }
     return result;
