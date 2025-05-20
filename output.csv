@@ -279,7 +279,7 @@ sld,tld,status,message
 "get",".hidns.co","✅","true"
 "how",".hidns.co","✅","true"
 "man",".hidns.co","❌","Domain is already registered"
-"new",".hidns.co","✅","true"
+"new",".hidns.co","❌","Domain is already registered"
 "now",".hidns.co","❌","Domain is already registered"
 "old",".hidns.co","✅","true"
 "see",".hidns.co","✅","true"
