@@ -308,7 +308,7 @@ sld,tld,status,message
 "bad",".hidns.co","✅","true"
 "big",".hidns.co","❌","Domain is already registered"
 "box",".hidns.co","❌","Domain is already registered"
-"buy",".hidns.co","✅","true"
+"buy",".hidns.co","❌","Domain is already registered"
 "car",".hidns.co","✅","true"
 "cut",".hidns.co","✅","true"
 "dog",".hidns.co","❌","Domain is already registered"
