@@ -24,7 +24,7 @@ sld,tld,status,message
 "can",".hidns.co","✅","true"
 "two",".hidns.co","✅","true"
 "more",".hidns.co","✅","true"
-"will",".hidns.co","✅","true"
+"will",".hidns.co","❌","Domain is already registered"
 "would",".hidns.co","✅","true"
 "their",".hidns.co","✅","true"
 "what",".hidns.co","✅","true"
