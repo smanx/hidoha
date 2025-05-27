@@ -610,7 +610,7 @@ sld,tld,status,message
 "buy",".hidns.vip","❌","Domain is already registered"
 "car",".hidns.vip","✅","true"
 "cut",".hidns.vip","✅","true"
-"dog",".hidns.vip","✅","true"
+"dog",".hidns.vip","❌","Domain is already registered"
 "eat",".hidns.vip","✅","true"
 "fan",".hidns.vip","✅","true"
 "far",".hidns.vip","✅","true"
