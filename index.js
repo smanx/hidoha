@@ -1,6 +1,17 @@
 const fs = require('fs');
-const tlds = ['.hidns.co', '.hidns.vip'];
+const tlds = [ '.loc.cc', '.hidns.co', '.hidns.vip'];
 const csvFilePath = 'output.csv';
+
+function checkUrl(tld) {
+    if (tld.startsWith('.hidns')) {
+        return 'https://www.hidoha.net/index.php?_url=/api/guest/servicedomain/check'
+    } else if (tld.startsWith('.loc.cc')) {
+        return 'https://free.nodeloc.com/index.php?_url=/api/guest/servicedomain/check'
+    } else {
+        // 抛出异常
+        throw new Error('未知的 TLD 类型');
+    }
+}
 
 // 读取 CSV 文件并转换为对象
 function readCsvFile() {
@@ -57,9 +68,9 @@ main()
 async function main() {
     const existingData = readCsvFile();
     for (const tld of tlds) {
-        const slds = (await readWordsFile()).concat(generateConsecutiveStrings(3));
+        const slds = (await readWordsFile()).concat(generateConsecutiveStrings(2));
         for (const sld of slds) {
-            const result = await check(sld, tld); 
+            const result = await check(sld, tld);
             const key = `${sld}${tld}`;
             if (result.error) {
                 const status = '❌';
@@ -76,7 +87,7 @@ async function main() {
             }
             const csvData = convertToCsv(existingData);
             fs.writeFileSync(csvFilePath, csvData);
-        } 
+        }
     }
 }
 
@@ -101,10 +112,12 @@ async function readWordsFile() {
 
 async function check(sld, tld) {
     const result = [];
-    let data = await fetch("https://www.hidoha.net/index.php?_url=/api/guest/servicedomain/check", {
+    let url = checkUrl(tld);
+    let data = await fetch(url, {
         "body": JSON.stringify({ sld, tld }),
         "method": "POST"
-    }).then(res => res.json());
+    }).then(res => res.json().catch(() => ({ error: res })));
+    console.log('check', data)
     return data
 }
 
