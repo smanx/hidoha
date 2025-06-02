@@ -1,5 +1,5 @@
 const fs = require('fs');
-const tlds = [ '.loc.cc', '.hidns.co', '.hidns.vip'];
+const tlds = [ '.loc.cc'];
 const csvFilePath = 'output.csv';
 
 function checkUrl(tld) {
@@ -67,22 +67,22 @@ main()
 
 async function main() {
     const existingData = readCsvFile();
-    for (const tld of tlds) {
+    for (const [index1, tld] of tlds.entries()) {
         const slds = (await readWordsFile()).concat(generateConsecutiveStrings(2));
-        for (const sld of slds) {
+        for (const [index2, sld] of slds.entries()) {
             const result = await check(sld, tld);
             const key = `${sld}${tld}`;
             if (result.error) {
                 const status = '❌';
                 const message = result.error.message;
                 existingData[key] = { sld, tld, status, message };
-                const unavailableMsg = `域名不可❌ ${sld} ${tld} ${message}`;
+                const unavailableMsg = `${index1}-${index2}:域名不可❌ ${sld} ${tld} ${message}`;
                 console.log(unavailableMsg);
             } else {
                 const status = '✅';
                 const message = result.result;
                 existingData[key] = { sld, tld, status, message };
-                const availableMsg = `域名可用✅ ${sld} ${tld} ${message}`;
+                const availableMsg = `${index1}-${index2}:域名可用✅ ${sld} ${tld} ${message}`;
                 console.log(availableMsg);
             }
             const csvData = convertToCsv(existingData);
@@ -117,7 +117,6 @@ async function check(sld, tld) {
         "body": JSON.stringify({ sld, tld }),
         "method": "POST"
     }).then(res => res.json().catch(() => ({ error: res })));
-    console.log('check', data)
     return data
 }
 
