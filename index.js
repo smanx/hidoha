@@ -68,7 +68,7 @@ main()
 async function main() {
     const existingData = readCsvFile();
     for (const [index1, tld] of tlds.entries()) {
-        const slds = (await readWordsFile()).concat(generateConsecutiveStrings(2));
+        const slds = generateConsecutiveStrings(2).concat((await readWordsFile()));
         for (const [index2, sld] of slds.entries()) {
             const result = await check(sld, tld);
             const key = `${sld}${tld}`;
