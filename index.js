@@ -1,5 +1,5 @@
 const fs = require('fs');
-const tlds = [ '.loc.cc'];
+const tlds = ['.loc.cc'];
 const csvFilePath = 'output.csv';
 
 function checkUrl(tld) {
@@ -68,7 +68,11 @@ main()
 async function main() {
     const existingData = readCsvFile();
     for (const [index1, tld] of tlds.entries()) {
-        const slds = generateConsecutiveStrings(2).concat((await readWordsFile()));
+        let slds = generateConsecutiveStrings(2)
+            .concat(generateConsecutiveStrings(3))
+            .concat(generateConsecutiveStrings(4))
+            .concat((await readWordsFile()))
+
         for (const [index2, sld] of slds.entries()) {
             const result = await check(sld, tld);
             const key = `${sld}${tld}`;
