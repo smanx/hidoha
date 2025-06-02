@@ -1,7 +1,7 @@
 const fs = require('fs');
-const tlds = ['.loc.cc'];
+const tlds = ['.loc.cc', '.hidns.vip', '.hidns.co'];
 const csvFilePath = 'output.csv';
-const concurrencyLimit = 10;
+const concurrencyLimit = 100;
 
 function checkUrl(tld) {
     if (tld.startsWith('.hidns')) {
