@@ -1447,7 +1447,7 @@ sld,tld,status,message
 "only",".loc.cc","✅","true"
 "order",".loc.cc","✅","true"
 "ore",".loc.cc","✅","true"
-"other",".loc.cc","✅","true"
+"other",".loc.cc","❌","Domain is exist"
 "ought",".loc.cc","✅","true"
 "our",".loc.cc","✅","true"
 "out",".loc.cc","✅","true"
