@@ -931,7 +931,7 @@ sld,tld,status,message
 "ddd",".loc.cc","❌","Domain is exist"
 "iii",".loc.cc","❌","Domain is exist"
 "ppp",".loc.cc","✅","true"
-"uuu",".loc.cc","❌","Domain is exist"
+"uuu",".loc.cc","❌","fetch failed"
 "pan",".hidns.vip","❌","undefined"
 "jabs",".hidns.vip","❌","undefined"
 "lll",".loc.cc","❌","Domain is exist"
