@@ -1764,7 +1764,7 @@ sld,tld,status,message
 "yard",".loc.cc","✅","true"
 "yeah",".loc.cc","✅","true"
 "yap",".loc.cc","✅","true"
-"yes",".loc.cc","❌","Domain is exist"
+"yes",".loc.cc","❌","fetch failed"
 "year",".loc.cc","✅","true"
 "you",".loc.cc","❌","Domain is exist"
 "your",".loc.cc","✅","true"
