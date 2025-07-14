@@ -976,7 +976,7 @@ sld,tld,status,message
 "6666",".loc.cc","✅","true"
 "mmmm",".loc.cc","✅","true"
 "llll",".loc.cc","❌","Domain is exist"
-"nnn",".loc.cc","✅","true"
+"nnn",".loc.cc","❌","Domain is exist"
 "hhhh",".loc.cc","✅","true"
 "tttt",".loc.cc","✅","true"
 "fawn",".loc.cc","✅","true"
