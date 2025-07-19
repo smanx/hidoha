@@ -3153,7 +3153,7 @@ sld,tld,status,message
 "wall",".loc.cc","✅","true"
 "wane",".loc.cc","✅","true"
 "wand",".loc.cc","✅","true"
-"walt",".loc.cc","❌","fetch failed"
+"walt",".loc.cc","✅","true"
 "warn",".loc.cc","✅","true"
 "ware",".loc.cc","✅","true"
 "wart",".loc.cc","✅","true"
