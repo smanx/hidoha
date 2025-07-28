@@ -1702,7 +1702,7 @@ sld,tld,status,message
 "very",".loc.cc","❌","Domain is exist"
 "vat",".loc.cc","✅","true"
 "vet",".loc.cc","✅","true"
-"vie",".loc.cc","✅","true"
+"vie",".loc.cc","❌","fetch failed"
 "voice",".loc.cc","✅","true"
 "view",".loc.cc","✅","true"
 "vote",".loc.cc","✅","true"
