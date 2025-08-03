@@ -1966,7 +1966,7 @@ sld,tld,status,message
 "crop",".loc.cc","✅","true"
 "crib",".loc.cc","✅","true"
 "cuff",".loc.cc","✅","true"
-"cube",".loc.cc","❌","fetch failed"
+"cube",".loc.cc","✅","true"
 "curb",".loc.cc","✅","true"
 "cure",".loc.cc","✅","true"
 "cult",".loc.cc","✅","true"
