@@ -969,7 +969,7 @@ sld,tld,status,message
 "bush",".hidns.vip","❌","undefined"
 "town",".hidns.co","❌","undefined"
 "oooo",".loc.cc","✅","true"
-"eeee",".loc.cc","✅","true"
+"eeee",".loc.cc","❌","fetch failed"
 "rrr",".loc.cc","✅","true"
 "iiii",".loc.cc","✅","true"
 "jjjj",".loc.cc","✅","true"
