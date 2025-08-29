@@ -3260,7 +3260,7 @@ sld,tld,status,message
 "wove",".loc.cc","✅","true"
 "wrap",".loc.cc","✅","true"
 "yam",".loc.cc","✅","true"
-"wry",".loc.cc","❌","Domain is exist"
+"wry",".loc.cc","✅","true"
 "yale",".loc.cc","✅","true"
 "yack",".loc.cc","✅","true"
 "yaks",".loc.cc","✅","true"
