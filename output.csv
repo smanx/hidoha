@@ -1255,7 +1255,7 @@ sld,tld,status,message
 "hardly",".loc.cc","✅","true"
 "he",".loc.cc","❌","Domain is exist"
 "has",".loc.cc","✅","true"
-"hat",".loc.cc","❌","undefined"
+"hat",".loc.cc","✅","true"
 "taut",".loc.cc","✅","true"
 "heart",".loc.cc","✅","true"
 "health",".loc.cc","✅","true"
