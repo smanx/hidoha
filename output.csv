@@ -2578,7 +2578,7 @@ sld,tld,status,message
 "nell",".loc.cc","✅","true"
 "nest",".loc.cc","✅","true"
 "nerd",".loc.cc","✅","true"
-"neil",".loc.cc","❌","fetch failed"
+"neil",".loc.cc","✅","true"
 "nets",".loc.cc","✅","true"
 "newt",".loc.cc","✅","true"
 "nine",".loc.cc","❌","Domain is exist"
