@@ -3050,7 +3050,7 @@ sld,tld,status,message
 "tilt",".loc.cc","✅","true"
 "tins",".loc.cc","✅","true"
 "tine",".loc.cc","✅","true"
-"ting",".loc.cc","✅","true"
+"ting",".loc.cc","❌","Domain is exist"
 "tint",".loc.cc","✅","true"
 "tips",".loc.cc","✅","true"
 "toad",".loc.cc","✅","true"
