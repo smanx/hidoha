@@ -3021,7 +3021,7 @@ sld,tld,status,message
 "tats",".loc.cc","✅","true"
 "teal",".loc.cc","✅","true"
 "tear",".loc.cc","✅","true"
-"tech",".loc.cc","❌","fetch failed"
+"tech",".loc.cc","❌","Domain is exist"
 "teas",".loc.cc","✅","true"
 "teat",".loc.cc","✅","true"
 "tent",".loc.cc","✅","true"
