@@ -1695,7 +1695,7 @@ sld,tld,status,message
 "upon",".loc.cc","✅","true"
 "urn",".loc.cc","✅","true"
 "use",".loc.cc","❌","Domain is exist"
-"user",".loc.cc","✅","true"
+"user",".loc.cc","❌","Domain is exist"
 "used",".loc.cc","✅","true"
 "value",".loc.cc","✅","true"
 "van",".loc.cc","✅","true"
