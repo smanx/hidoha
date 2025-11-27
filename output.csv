@@ -923,7 +923,7 @@ sld,tld,status,message
 "hhh",".loc.cc","❌","Domain is exist"
 "bbb",".loc.cc","❌","Domain is exist"
 "qqq",".loc.cc","❌","Domain is exist"
-"fff",".loc.cc","✅","true"
+"fff",".loc.cc","❌","Domain is exist"
 "eee",".loc.cc","❌","Domain is exist"
 "jjj",".loc.cc","❌","Domain is exist"
 "ggg",".loc.cc","❌","Domain is exist"
