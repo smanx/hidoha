@@ -952,7 +952,7 @@ sld,tld,status,message
 "gggg",".loc.cc","✅","true"
 "zzz",".loc.cc","❌","Domain is exist"
 "8888",".loc.cc","✅","true"
-"kkkk",".loc.cc","✅","true"
+"kkkk",".loc.cc","❌","fetch failed"
 "vvv",".loc.cc","❌","Domain is exist"
 "pass",".hidns.vip","❌","undefined"
 "yyy",".loc.cc","❌","Domain is exist"
