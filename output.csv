@@ -3006,7 +3006,7 @@ sld,tld,status,message
 "tail",".loc.cc","✅","true"
 "tame",".loc.cc","✅","true"
 "tamp",".loc.cc","✅","true"
-"tang",".loc.cc","✅","true"
+"tang",".loc.cc","❌","Domain is exist"
 "tank",".loc.cc","✅","true"
 "tans",".loc.cc","✅","true"
 "taps",".loc.cc","✅","true"
