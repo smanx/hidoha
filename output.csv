@@ -1970,7 +1970,7 @@ sld,tld,status,message
 "curb",".loc.cc","✅","true"
 "cure",".loc.cc","✅","true"
 "cult",".loc.cc","✅","true"
-"curl",".loc.cc","✅","true"
+"curl",".loc.cc","❌","Domain is exist"
 "curt",".loc.cc","✅","true"
 "curs",".loc.cc","✅","true"
 "cush",".loc.cc","✅","true"
