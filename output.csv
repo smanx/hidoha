@@ -959,7 +959,7 @@ sld,tld,status,message
 "ffff",".loc.cc","✅","true"
 "ooo",".loc.cc","❌","Domain is exist"
 "dddd",".loc.cc","✅","true"
-"rrrr",".loc.cc","✅","true"
+"rrrr",".loc.cc","❌","fetch failed"
 "nnnn",".loc.cc","❌","Domain is exist"
 "1111",".loc.cc","❌","Domain is exist"
 "qqqq",".loc.cc","✅","true"
